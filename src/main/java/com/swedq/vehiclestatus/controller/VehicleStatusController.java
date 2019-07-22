@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = "/api/v1/vehicle/status", headers = "Accept=application/json")
+@CrossOrigin
 public class VehicleStatusController {
 
     @Autowired
